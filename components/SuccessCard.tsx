@@ -51,7 +51,7 @@ export const SuccessCard: React.FC<SuccessCardProps> = ({ referralCodeFromQuery 
           </h1>
           
           <p className="text-sm sm:text-base text-slate-300 max-w-md mx-auto">
-            Your spot for the free 60-Minute AI Project Workshop is confirmed.
+            Your registration for the free 60-minute online workshop is confirmed.
           </p>
         </div>
 

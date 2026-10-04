@@ -6,21 +6,21 @@ export const ProgramOverview: React.FC = () => {
     {
       num: '01',
       title: 'Understand the AI Project',
-      desc: 'Break down real-world AI architecture, prompt engineering, and LLM API integrations in plain English.',
+      desc: 'Learn about the AI project you will build during the workshop.',
       icon: Lightbulb,
       color: 'from-cyan-500/20 to-blue-500/10 text-cyan-400 border-cyan-500/30',
     },
     {
       num: '02',
-      title: 'Build It Step by Step',
-      desc: 'Follow along live as we write clean code, handle API requests, and connect frontend logic in 60 minutes.',
+      title: 'Build the AI Project',
+      desc: 'Build your first AI project during the 60-minute session.',
       icon: Wrench,
       color: 'from-blue-500/20 to-indigo-500/10 text-blue-400 border-blue-500/30',
     },
     {
       num: '03',
       title: 'Finish With Something Working',
-      desc: 'Deploy a functional AI project to your GitHub portfolio that you can showcase live to interviewers.',
+      desc: 'Finish the session with your first working AI project and a clearer understanding of how it was built.',
       icon: Rocket,
       color: 'from-indigo-500/20 to-purple-500/10 text-purple-400 border-indigo-500/30',
     },
@@ -39,7 +39,7 @@ export const ProgramOverview: React.FC = () => {
             WHAT YOU’LL DO
           </h2>
           <p className="text-xs sm:text-sm text-slate-400 max-w-xl mx-auto">
-            A structured 60-minute hands-on build session designed specifically for engineering students.
+            A free 60-minute online workshop for building your first AI project.
           </p>
         </div>
 
@@ -81,17 +81,17 @@ export const ProgramOverview: React.FC = () => {
           <div className="space-y-2 flex-1">
             <div className="flex items-center gap-2">
               <span className="text-xs font-mono font-semibold text-indigo-400 uppercase tracking-wider">
-                PLACEMENT RELEVANCE
+                FOR FINAL-YEAR ENGINEERING STUDENTS
               </span>
             </div>
             <h3 className="text-xl sm:text-2xl font-extrabold text-white tracking-tight">
-              WHY IT MATTERS
+              WHO IT’S FOR
             </h3>
             <p className="text-sm sm:text-base text-slate-300 leading-relaxed font-medium">
-              “Many students use AI tools, but few have built an AI project they can actually explain during placements.”
+              This campaign invites final-year engineering students to build their first AI project.
             </p>
             <p className="text-xs sm:text-sm text-slate-400">
-              Standing out in placement technical interviews requires proof of implementation — knowing how data flows, API keys are secured, and how components interact under the hood.
+              The workshop is free, online, and 60 minutes long.
             </p>
           </div>
         </div>

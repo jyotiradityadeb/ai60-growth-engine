@@ -89,14 +89,14 @@ export const RegistrationForm: React.FC = () => {
         <div className="space-y-1 mb-6 text-center sm:text-left">
           <div className="flex items-center justify-center sm:justify-start gap-2">
             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 text-xs font-semibold tracking-wide">
-              <Sparkles className="w-3.5 h-3.5" /> FREE SPOTS LIMITED FOR BATCH
+              <Sparkles className="w-3.5 h-3.5" /> FREE 60-MINUTE ONLINE WORKSHOP
             </span>
           </div>
           <h3 className="text-xl sm:text-2xl font-bold text-white tracking-tight pt-2">
-            Reserve My Free Spot
+            Register for the Free Workshop
           </h3>
           <p className="text-xs sm:text-sm text-slate-400">
-            Takes under 45 seconds. Get instant access + your referral link.
+            Takes under 45 seconds. Get instant registration confirmation + your referral link.
           </p>
 
           {/* Active Attribution Badge if referred */}
@@ -264,11 +264,11 @@ export const RegistrationForm: React.FC = () => {
               {isSubmitting ? (
                 <>
                   <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
-                  <span>Reserving Spot...</span>
+                  <span>Submitting Registration...</span>
                 </>
               ) : (
                 <>
-                  <span>Reserve My Free Spot</span>
+                  <span>Register for Free Workshop</span>
                   <ArrowRight className="w-5 h-5 text-cyan-200" />
                 </>
               )}
@@ -277,7 +277,7 @@ export const RegistrationForm: React.FC = () => {
 
           <div className="text-center pt-1">
             <span className="text-[11px] text-slate-400 inline-flex items-center gap-1">
-              <CheckCircle className="w-3.5 h-3.5 text-emerald-400" /> Instant confirmation & referral dashboard link
+              <CheckCircle className="w-3.5 h-3.5 text-emerald-400" /> Registration confirmation & referral link
             </span>
           </div>
 

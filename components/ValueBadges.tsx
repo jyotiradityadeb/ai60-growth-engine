@@ -4,7 +4,7 @@ import { Sparkles, Clock, Code, CheckCircle2 } from 'lucide-react';
 export const ValueBadges: React.FC = () => {
   const badges = [
     { label: 'Free Workshop', icon: Sparkles, color: 'from-emerald-500/20 to-teal-500/10 border-emerald-500/30 text-emerald-400' },
-    { label: 'Beginner Friendly', icon: CheckCircle2, color: 'from-cyan-500/20 to-blue-500/10 border-cyan-500/30 text-cyan-400' },
+    { label: 'Online Workshop', icon: CheckCircle2, color: 'from-cyan-500/20 to-blue-500/10 border-cyan-500/30 text-cyan-400' },
     { label: '60 Minutes', icon: Clock, color: 'from-blue-500/20 to-indigo-500/10 border-blue-500/30 text-blue-400' },
     { label: 'Hands-on Project', icon: Code, color: 'from-indigo-500/20 to-purple-500/10 border-indigo-500/30 text-indigo-400' },
   ];

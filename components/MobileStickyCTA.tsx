@@ -42,14 +42,14 @@ export const MobileStickyCTA: React.FC = () => {
               Build AI Project in 60 Mins
             </span>
           </div>
-          <p className="text-[10px] text-slate-400 truncate">Free Workshop • 2027 Grad Special</p>
+          <p className="text-[10px] text-slate-400 truncate">Free Workshop • Final-Year Engineering Students</p>
         </div>
 
         <button
           onClick={scrollToForm}
           className="py-2.5 px-4 rounded-xl font-bold text-xs bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-md shadow-cyan-500/30 flex items-center gap-1.5 shrink-0 active:scale-95 transition-transform"
         >
-          <span>Reserve Spot</span>
+          <span>Register Free</span>
           <ArrowRight className="w-3.5 h-3.5" />
         </button>
       </div>

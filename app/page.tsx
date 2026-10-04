@@ -31,7 +31,7 @@ export default function CampaignPage() {
 
         {/* Subheadline */}
         <p className="text-base sm:text-xl text-slate-300 max-w-2xl mx-auto font-medium leading-relaxed">
-          Don’t just use AI. Build something you can actually talk about in your placements.
+          Join a free online workshop and build your first AI project in 60 minutes.
         </p>
 
         {/* Value Badges */}
@@ -39,7 +39,7 @@ export default function CampaignPage() {
 
         {/* Scroll down indicator */}
         <div className="pt-2 text-slate-500 text-xs flex items-center justify-center gap-1.5 font-mono">
-          <span>Fill details below to lock your spot</span>
+          <span>Fill in your details below to register</span>
           <ArrowDown className="w-3.5 h-3.5 animate-bounce text-cyan-400" />
         </div>
       </section>

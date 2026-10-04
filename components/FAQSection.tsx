@@ -9,15 +9,15 @@ export const FAQSection: React.FC = () => {
   const faqs = [
     {
       q: 'Is this free?',
-      a: 'Yes. The 60-minute workshop is 100% free for final-year engineering students as part of our nationwide AI builder acquisition initiative.',
+      a: 'Yes. This is a free 60-minute online workshop.',
     },
     {
-      q: 'Do I need previous AI experience?',
-      a: 'No. The workshop is designed to be completely beginner-friendly. Basic knowledge of programming or web fundamentals is helpful, but step-by-step guidance is provided throughout.',
+      q: 'Who is this workshop for?',
+      a: 'Our campaign is for final-year engineering students who want to build their first AI project.',
     },
     {
       q: 'How long is the workshop?',
-      a: 'The workshop lasts exactly 60 minutes, packed with hands-on building, code execution, and architectural breakdown.',
+      a: 'The online workshop is 60 minutes long.',
     },
   ];
 
