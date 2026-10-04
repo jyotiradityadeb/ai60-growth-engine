@@ -21,6 +21,7 @@ export default function CampaignPage() {
           <Zap className="w-4 h-4 text-cyan-400 fill-cyan-400/20" />
           <span>NxtWave Growth Challenge • Free Online Workshop</span>
         </div>
+        <p className="text-xs font-mono text-amber-300">DEMO DATA — CAMPAIGN SIMULATION</p>
 
         {/* Main Headline */}
         <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black text-white tracking-tight leading-[1.15]">

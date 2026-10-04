@@ -39,4 +39,4 @@ http://localhost:3000/?ref=AI60-AB1234567&source=referrals
 
 ## Deploy
 
-Deploy the repository to a Next.js compatible host such as Vercel. Set the three environment variables in the host settings, run the SQL schema in Supabase, and set `NEXT_PUBLIC_SITE_URL` to the exact public origin. Build with `npm run build`. Submit a direct and referred test registration, confirm duplicate rejection, and inspect the live dashboard and leaderboard. Because this is a simulation, keep any seeded numbers visibly labeled **DEMO DATA — CAMPAIGN SIMULATION** if they are displayed again.
+Deploy the repository to Vercel Hobby only while it remains eligible for personal, non-commercial use. Set the Supabase environment variables in the host settings, run the SQL schema in Supabase, and set `NEXT_PUBLIC_SITE_URL` to the exact public origin. Build with `npm run build`. Submit a direct and referred test registration, confirm duplicate rejection, and inspect the live dashboard and leaderboard. Because this is a simulation, keep any seeded numbers visibly labeled **DEMO DATA — CAMPAIGN SIMULATION** if they are displayed again. Live test registrations must remain separately labeled.

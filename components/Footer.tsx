@@ -36,7 +36,7 @@ export const Footer: React.FC = () => {
           <span>© {new Date().getFullYear()} AI60 Growth Engine. Built for Growth Product Simulation.</span>
         </div>
         <div className="inline-flex items-center gap-1.5 text-amber-400/80 font-mono text-[11px] bg-amber-500/10 border border-amber-500/20 px-2.5 py-1 rounded">
-          <span>CAMPAIGN SIMULATION • LIVE TEST REGISTRATIONS</span>
+          <span>DEMO DATA — CAMPAIGN SIMULATION • Live test registrations shown separately</span>
         </div>
       </div>
     </footer>
