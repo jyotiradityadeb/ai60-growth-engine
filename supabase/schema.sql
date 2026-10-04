@@ -23,3 +23,4 @@ create index if not exists registrations_college_idx on public.registrations(col
 alter table public.registrations enable row level security;
 -- No anon/authenticated policies: personal records are accessed only by the server with its service role key.
 revoke all on public.registrations from anon, authenticated;
+grant select, insert on public.registrations to service_role;
